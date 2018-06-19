@@ -46,8 +46,9 @@
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns: 1fr 500px 1fr;
+      grid-template-columns:[sidebar1-begin] 1fr[sidebar1-end content-begin] 500px [content-end sidebar2-begin]1fr[sidebar2-end];
       grid-template-rows: repeat(10, auto);
+
     }
   </style>
 </body>
