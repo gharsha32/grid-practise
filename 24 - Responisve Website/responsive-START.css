@@ -160,7 +160,7 @@ gallery img{
       "cta1 cta2"
   }
 .about{
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr;9
 }
 }
 @media (max-width: 500px) {
