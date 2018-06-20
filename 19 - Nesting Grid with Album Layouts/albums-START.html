@@ -97,6 +97,23 @@
 
 
   <style>
+    display:grid;
+    .albums{
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-gap: 10px
+    }
+    album{
+      background: red;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      grid-gap: 10px;
+      align-items: center;
+      color: white;
+    }
+    .art_gallary{
+      width: 100%;
+    }
   </style>
 </body>
 
